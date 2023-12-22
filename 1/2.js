@@ -39,7 +39,6 @@ function UserException(message){
 // Вам необходимо реализовать класс, который управляет заказами и поварами.
 class Manager {
   orders = new Map;
-  repository = new Map;
   constructor(dishes, specialists){
     this.dishes = dishes;
     this.specialists = specialists;
